@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+}
+
+
+.containerPhotoList {
+  columns: 300px 4;
+  column-gap: 5px;
+  margin: 2%;
+}
+
+ @media (max-width: 600px) {
+
+   .containerPhotoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    column-gap: 0;
+    flex-wrap: wrap;
+  }
+} 

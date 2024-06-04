@@ -1,0 +1,10 @@
+.containerAccount {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 2%;
+}
