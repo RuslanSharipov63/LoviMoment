@@ -8,6 +8,6 @@ build:
   artifacts:
     "*": /
 run:
-  command: npm run serve
+  command: npm run dev
   persistenceMount: /data
   containerPort: "4000"
