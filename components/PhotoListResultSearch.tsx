@@ -26,7 +26,7 @@ const PhotoListResultSearch: FC<PhotoListResultSearchProp> = ({ photosList }) =>
       <div className={styles.containerPhotoList}>    
         {photosList.map((item: PhotosType) =>      
            
-                <Link href={`/photo/${item._id}`}>
+                <Link href={`/photo/${item._id}`} key={item._id}>
                   <Image
                     src={`/image/uploads/${item.user}/${item.imageURL}`}
                     width={500}
