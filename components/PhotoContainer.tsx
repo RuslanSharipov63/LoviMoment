@@ -29,7 +29,7 @@ const PhotoContainer: FC<PhotoContainerProp> = ({ token }) => {
       setPhoto(onePhoto);
     };
     wrapperGetOnePhotoById();
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     if (checkUpdatePhoto) {
