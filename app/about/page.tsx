@@ -1,7 +1,7 @@
-import styles from "./../ui/About.module.css";
-import { Nunito } from "next/font/google";
-import Image from "next/image";
-const dancingScript = Nunito({ subsets: ["cyrillic"] });
+import styles from './../ui/About.module.css';
+import { Nunito } from 'next/font/google';
+import Image from 'next/image';
+const dancingScript = Nunito({ subsets: ['cyrillic'] });
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
         Бесплатный фотосток
         </p>
         <p className={`${dancingScript.className} ${styles.text}`}>
-          "ЛОВИ МОМЕНТ" - это мой пет-проект, начинающего программиста. Фотосток
+          'ЛОВИ МОМЕНТ' - это мой пет-проект, начинающего программиста. Фотосток
           абсолютно бесплатный. Фотографии размещенные здесь можете использовать
           везде, где вы только захотите, в том числе и в коммерческих проектах.
           Одна только просьба, и это всего лишь просьба, если фото возьмете с
@@ -27,12 +27,12 @@ const About = () => {
           <Image
             width={500}
             height={500}
-            src={"/photograf.jpg"}
+            src={'/photograf.jpg'}
             alt="фото страница о проекте"
             style={{
-              width: "100%",
-              height: "auto",
-              borderRadius: "10px",
+              width: '100%',
+              height: 'auto',
+              borderRadius: '10px',
             }}
           />
         </div>
